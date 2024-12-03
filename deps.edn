@@ -1,0 +1,6 @@
+{:paths
+  ["src/dev"
+  "src/main"
+  "src/test"]
+ :deps {io.github.jerems/prose {:git/tag "v83", :git/sha "08fe24e3c1"}
+        de.active-group/reacl-c {:mvn/version "0.11.7"}}}
