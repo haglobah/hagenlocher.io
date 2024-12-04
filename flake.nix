@@ -30,6 +30,7 @@
           ];
           packages = [
             pkgs.nodejs_22
+            pkgs.clojure
             pkgs.zulu
           ];
           commands = [
