@@ -31,6 +31,7 @@
           packages = [
             pkgs.nodejs_22
             pkgs.clojure
+            pkgs.clojure-lsp
             pkgs.zulu
           ];
           commands = [
