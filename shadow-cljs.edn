@@ -1,10 +1,10 @@
 ;; shadow-cljs configuration
 {:deps true
-  
+
  :dev-http {8080 "public"}
 
  :builds
  {:frontend
   {:target :browser
    :modules {:main {:init-fn acme.frontend.app/init}}
-   }}}
+   :devtools {:reload-strategy :full}}}}
